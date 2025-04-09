@@ -61,3 +61,49 @@ footer{
 a{
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .section1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .section2 {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .estadisticas {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
